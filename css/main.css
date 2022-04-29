@@ -1,0 +1,82 @@
+/* Start of header Sections */
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#FEFAF5;
+    padding: 4.38rem 0 3.13rem 0;
+}
+.header__title{
+    width: 25rem;
+    color: #335576;;
+    padding-bottom: 1.25rem;
+    font-size: 1.88rem;
+}
+.header__text{
+    width: 38rem;
+    color: #335576;
+}
+.header__button{
+    margin-top: 1.25rem;
+    color: white;
+    background-color: #DB7A4E;
+    border-style: none;
+    border-radius: 1.25rem;
+    padding: 0.63rem 2.5rem;
+}
+.header__image{
+    width: 31.25rem;
+}
+
+/* Start of recommendations Section */
+.recommendations{
+    margin-bottom: 6.25rem;
+}
+.recommendations__title{
+    margin: 3.13rem 0 0 3.13rem;
+    color: #335576;
+    font-size: 1.88rem;
+}
+.card__container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3.13rem 6.25rem 0 6.25rem;
+
+}
+.card__link{
+ text-decoration: none;
+}
+.card{
+    border-radius: 0.31rem;
+    border: 0.06rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
+    height: 28.13rem;
+    width: 17.19rem;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 0 1.25rem 1.25rem 0;
+    color: white;
+    
+}
+.card__hawaii{
+    background: url(/assets/hawaii.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card__iceland{
+    background: url(/assets/iceland.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.card__greece{
+    background: url(/assets/greece.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
